@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Wilfred Lagat
+# Lagat Kipruto
 # Defines a name-printing function.
 
 
