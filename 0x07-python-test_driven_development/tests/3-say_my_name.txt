@@ -27,8 +27,8 @@ Usage
 The parameter ```last_name``` is optional. If no last name is provided,
 an empty string is printed instead.
 
-::
 
+    
 Invalid Names
 =============
 
