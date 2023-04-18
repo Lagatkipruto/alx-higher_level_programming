@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-# It adds the State object "Louisiana" to the database hbtn_0e_6_usa.
-# Usage: ./11-model_state_insert.py <mysql username> /
-#                                   <mysql password> /
-#                                   <database name>
+""" It adds the State object "Louisiana" to the database hbtn_0e_6_usa.
+ Usage: ./11-model_state_insert.py <mysql username> /
+                                   <mysql password> /
+                                   <database name>
+"""
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker

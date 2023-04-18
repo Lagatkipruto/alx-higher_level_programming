@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-# This script displays all values in the states table of the database\
-#        hbtn_0e_0_usa
-# whose name matches that passed  as argument.
-# Usage: ./2-my_filter_states.py <mysql username> \
-#                                <mysql password> \
-#                                <database name> \
-#                                <state name searched>
+""" This script displays all values in the states table of the database\
+        hbtn_0e_0_usa
+ whose name matches that passed  as argument.
+ Usage: ./2-my_filter_states.py <mysql username> \
+                                <mysql password> \
+                                <database name> \
+                                <state name searched>
+"""
 import sys
 import MySQLdb
 

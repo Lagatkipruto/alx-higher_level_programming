@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-# It defines a City model.
-# It inherits from SQLAlchemy Base and links to the MySQL table cities.
+""" It defines a City model.
+ It inherits from SQLAlchemy Base and links to the MySQL table cities.
+"""
 
 from sqlalchemy import Column, ForeignKey, Integer, String
 from sqlalchemy.ext.declarative import declarative_base

@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-# The script lists all  State objects that contain letter 'a' 
-# from the database hbtn_0e_6_usa.
-# Usage: ./9-model_state_filter_a.py <mysql username> /
-#                                   <mysql password> /
-#                                   <database name>
+""" The script lists all  State objects that contain letter 'a'
+ from the database hbtn_0e_6_usa.
+ Usage: ./9-model_state_filter_a.py <mysql username> /
+                                   <mysql password> /
+                                   <database name>
+"""
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker

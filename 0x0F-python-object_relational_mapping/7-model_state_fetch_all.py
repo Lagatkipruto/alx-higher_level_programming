@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-# It lists all State objects from the database hbtn_0e_6_usa.
-# Usage: ./7-model_state_fetch_all.py <mysql username> /
-#                                     <mysql password> /
-#                                     <database name>
+""" It lists all State objects from the database hbtn_0e_6_usa.
+ Usage: ./7-model_state_fetch_all.py <mysql username> /
+                                     <mysql password> /
+                                     <database name>
+"""
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
