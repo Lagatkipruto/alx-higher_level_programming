@@ -3,7 +3,7 @@ const request = require('request');
 
 // Retrieve the movie ID from the command-line argument
 const movieId = process.argv[2];
-const url = `https://swapi-api.alx-tools.com/api/films/${movieId}`;
+const url = `https://swapi.co/api/films/${movieId}`;
 
 request(url, function (error, response, body) {
   if (!error && response.statusCode === 200) {
